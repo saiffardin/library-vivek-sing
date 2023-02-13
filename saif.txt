@@ -1,0 +1,11 @@
+go get -u github.com/gorilla/mux
+go get -u github.com/go-sql-driver/mysql
+
+go build -o library-vivek-sing
+
+mysql -u root --password='password'
+
+sudo apt-get install mysql-server
+sudo apt install mysql-client-core-8.0
+
+show databases;
