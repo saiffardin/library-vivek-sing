@@ -9,3 +9,5 @@ sudo apt-get install mysql-server
 sudo apt install mysql-client-core-8.0
 
 show databases;
+
+docker build -t library-vivek-sing:0.1.0
